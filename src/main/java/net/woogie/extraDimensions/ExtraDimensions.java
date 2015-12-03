@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.woogie.extraDimensions.proxy.CommonProxy;
 
-@Mod(modid = "extraDimensions", version = "0.99.0", name = "ExtraDimensions", useMetadata = true, dependencies = "required-after:Forge@[10.12.0.1024,);after:TooManyBiomes;after:BiomesOPlenty")
+@Mod(modid = "extraDimensions", version = "1.8.0", name = "ExtraDimensions", useMetadata = true, dependencies = "required-after:Forge@[11.14.4.1563,);after:TooManyBiomes;after:BiomesOPlenty")
 public class ExtraDimensions {
 
 	@SidedProxy(clientSide = "net.woogie.extraDimensions.proxy.ClientProxy", serverSide = "net.woogie.extraDimensions.proxy.ServerProxy")
