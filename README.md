@@ -15,7 +15,9 @@ Allows dynamic creation and deletion of dimensions via commands (restricted to o
                                           amplified
                                           default_1_1
                                           custom
-     <World Options>  - optional.  Options for the above world type (See below), or '-' if you would like to provide a seed without providing any customized options.
+     <World Options>  - optional.  Options for the above world type (See below), 
+                                   or '-' if you would like to provide a seed 
+                                   without providing any customized options.
      <World Seed>     - optional.  The seed used in world generation.
 
 /xddelete <Dimension Name>
@@ -32,8 +34,10 @@ Allows dynamic creation and deletion of dimensions via commands (restricted to o
 
 /xdtp <target player name> <destination dimension name>
   teleport to an ExtraDimension.
-    If teleporting from survival to creative, the survival inventory is saved, and the creative inventory (if it exists) is restored.
-    If teleporting from creative to survival, the creative inventory is saved, and the survival inventory (if it exists) is restored.
+    If teleporting from survival to creative, the survival inventory 
+       is saved, and the creative inventory (if it exists) is restored.
+    If teleporting from creative to survival, the creative inventory 
+       is saved, and the survival inventory (if it exists) is restored.
 ```
 
 ## World Options
@@ -46,7 +50,9 @@ World options can be of 2 forms:
   * A short string that ExtraDimensions translates into a Minecraft option strings
 
 The 2 World Types that support options are
+
 1. flat
+
 The following presets are supported:
   * classicflat
   * overworld
@@ -56,11 +62,13 @@ The following presets are supported:
   * redstoneready
   * waterworld
   * bottomlesspit
-  * thevoid"
+  * thevoid
+
 A tool for generating Minecraft option strings can be found here:
   * http://minecraft.tools/en/flat.php 
 
 2. custom
+
 The following presets are supported:
   * default
   * isleland
@@ -70,6 +78,7 @@ The following presets are supported:
   * caversdelight
   * drought
   * goodluck
+
 A tool for generating Minecraft option strings can be found here:
   * http://minecraft.tools/en/custom.php 
 
