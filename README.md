@@ -52,8 +52,9 @@ World options can be of 2 forms:
 The 2 World Types that support options are
 
 1. flat
+2. custom
 
-The following presets are supported:
+The following flat presets are supported:
   * classicflat
   * overworld
   * dessert
@@ -67,9 +68,7 @@ The following presets are supported:
 A tool for generating Minecraft option strings can be found here:
   * http://minecraft.tools/en/flat.php 
 
-2. custom
-
-The following presets are supported:
+The following custom presets are supported:
   * default
   * isleland
   * mountainmadness
@@ -82,6 +81,7 @@ The following presets are supported:
 A tool for generating Minecraft option strings can be found here:
   * http://minecraft.tools/en/custom.php 
 
-**Note:** There is a limit to the length of commands you can enter in the Minecraft command line.  Minecraft option strings are almost guaranteed to go over this 
-limit.  You can use command blocks to issue the commands to get around this limitation.
+**Note:** There is a limit to the length of commands you can enter in the Minecraft 
+command line.  Minecraft option strings are almost guaranteed to go over this limit.
+You can use command blocks to issue the commands to get around this limitation.
 
