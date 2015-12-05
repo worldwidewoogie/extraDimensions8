@@ -145,6 +145,7 @@ public class CommandXdTp extends CommandBase {
 				0.0F);
 
 		playerMP.motionX = playerMP.motionY = playerMP.motionZ = 0.0D;
+		playerMP.capabilities.isFlying = false;
 
 		playerMP.setGameType(nextGameType);
 
